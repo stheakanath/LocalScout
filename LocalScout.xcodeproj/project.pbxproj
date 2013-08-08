@@ -15,6 +15,7 @@
 		EB25553515C9CB12001EE089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25553415C9CB12001EE089 /* AppDelegate.m */; };
 		EB25553815C9CB12001EE089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB25553715C9CB12001EE089 /* ViewController.m */; };
 		EB25553B15C9CB12001EE089 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB25553915C9CB12001EE089 /* ViewController.xib */; };
+		EB25554215C9DF11001EE089 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB25554115C9DF11001EE089 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		EB25552415C9CB11001EE089 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB25552615C9CB11001EE089 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB25552815C9CB11001EE089 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EB25552C15C9CB11001EE089 /* LocalScout-Info.plist */ = {isa = PBXFileReference; path = "LocalScout-Info.plist"; sourceTree = "<group>"; };
+		EB25552C15C9CB11001EE089 /* LocalScout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalScout-Info.plist"; sourceTree = "<group>"; };
 		EB25552E15C9CB11001EE089 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB25553015C9CB12001EE089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB25553215C9CB12001EE089 /* LocalScout-Prefix.pch */ = {isa = PBXFileReference; path = "LocalScout-Prefix.pch"; sourceTree = "<group>"; };
-		EB25553315C9CB12001EE089 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB25553215C9CB12001EE089 /* LocalScout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalScout-Prefix.pch"; sourceTree = "<group>"; };
+		EB25553315C9CB12001EE089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB25553415C9CB12001EE089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB25553615C9CB12001EE089 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EB25553615C9CB12001EE089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EB25553715C9CB12001EE089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB25553A15C9CB12001EE089 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		EB25554115C9DF11001EE089 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB25554215C9DF11001EE089 /* MessageUI.framework in Frameworks */,
 				EB25552515C9CB11001EE089 /* UIKit.framework in Frameworks */,
 				EB25552715C9CB11001EE089 /* Foundation.framework in Frameworks */,
 				EB25552915C9CB11001EE089 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +53,7 @@
 		EB25551515C9CB11001EE089 = {
 			isa = PBXGroup;
 			children = (
+				EB25554115C9DF11001EE089 /* MessageUI.framework */,
 				EB25552A15C9CB11001EE089 /* LocalScout */,
 				EB25552315C9CB11001EE089 /* Frameworks */,
 				EB25552115C9CB11001EE089 /* Products */,

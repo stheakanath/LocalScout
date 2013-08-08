@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MFMessageComposeViewController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MFMessageComposeViewControllerDelegate>
 
+-(IBAction)buttonclicked:(id)sender;
 @end
